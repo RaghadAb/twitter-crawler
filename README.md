@@ -20,17 +20,17 @@ Computer Science 2020
 
 ## How to Run 
 To run the data crawler
-
- 1- unzip the txt file 
  
- 2- Connect to mongodb
+ 1- Connect to mongodb
  
- 3- python3 Hybrid.py (Crawl data based on both STREAM and REST API's)
+ 2- python3 Hybrid.py (Crawl data based on both STREAM and REST API's)
  
- 4- python3 Stream.py (Crawl data based on STREAM API)
+ 3- python3 Stream.py (Crawl data based on STREAM API)
  
 
 The data will then be stored in mongodb. 
-Note: Config.py has the twitter credentials, this can be changed and replaced with your own. 
+## Important Notes
+* Config.py has the twitter credentials, this can be changed and replaced with your own. 
+* Before running the jupyter notebook, ensure the txt file is unzipped
 
 
